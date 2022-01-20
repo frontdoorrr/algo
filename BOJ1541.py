@@ -18,17 +18,11 @@ def solution(string):
 	value = 0
 	input_value = string.split('-')
 	ans = [str_add(input_value[0])]
-
 	for i in range(1, len(input_value)):
 		ans.append(-str_add(input_value[i]))
 
 	return sum(ans)
 
-
-
 print(solution(input_exp))
-print(solution('55-50+40'))
-print(solution('10+20+30+40'))
-print(solution('00009-00009'))
 
 
