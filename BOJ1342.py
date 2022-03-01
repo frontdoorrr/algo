@@ -18,7 +18,6 @@ def is_lucky(s):
 
 def solution(s):
 	arr = []
-
 	cnt = 0
 	for i in permutations(s, len(s)):
 		arr.append(''.join(i))
