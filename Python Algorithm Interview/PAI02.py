@@ -29,6 +29,7 @@ def solution(height):
 	return volume
 
 
+
 print(f"answer is  {solution([0,1,0,2,1,0,1,3,2,0,2,1])}")
 
 
