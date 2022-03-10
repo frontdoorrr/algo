@@ -22,7 +22,6 @@ for _ in range(n):
 def bfs(grid, queue, i, j):
 	dx = [-1, 1, 0, 0]
 	dy = [0, 0, 1, -1]
-	print(grid)
 	while queue:
 		x, y = queue.popleft()
 		for i in range(4):
@@ -50,4 +49,3 @@ def solution(grid):
 
 print(solution(grid))
 
-print(grid)
