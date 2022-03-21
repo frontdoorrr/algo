@@ -37,4 +37,5 @@ def parentheses_count(s):
 		return 'yes'
 	return 'no'
 
+
 print(parentheses_count(input_str))
