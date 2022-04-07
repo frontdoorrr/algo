@@ -20,8 +20,9 @@ sols = list(map(int, sys.stdin.readline().split()))
 def solution(n, arr):
 	left, right = 0, n - 1
 	arr.sort()
-	tar = arr[-1] + 1
+	tar = arr[left] + arr[right]
 	ans = []
+	al, ar = left, right
 	while left < right:
 		tmp = arr[left] + arr[right]
 		if tmp == 0:
